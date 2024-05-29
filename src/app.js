@@ -8,7 +8,7 @@ app.use(express.json())
 app.use(express.urlencoded({ extended: false }))
 
 app.get('/', (req, res) => {
-    res.json({ "message": "Hello world"})
+    res.json({ "message": "Mi primer proyecto :)"})
 })
 
 export default app;
